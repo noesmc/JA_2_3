@@ -14,7 +14,9 @@ public class Main {
                 } else if (score >= 0 && score < 70) {
                     System.out.println("Sorry, you’ve failed the test.");
                     break;
-                    }
+                } else {
+                    System.out.println("Enter a value from the range 0 to 100!");
+                }
             } catch (NumberFormatException e) {
                 System.out.println("Wrong input!");
             }
